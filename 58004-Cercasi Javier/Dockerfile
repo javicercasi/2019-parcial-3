@@ -9,4 +9,4 @@ RUN pip freeze > requirements.txt
 RUN pip install -r requirements.txt
 
 
-CMD ["python", "./parcial.py"]
+CMD ["python", "./test.py"]
