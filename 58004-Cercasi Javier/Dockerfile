@@ -6,6 +6,9 @@ WORKDIR /2019-parcial-3/58004-Cercasi Javier
 
 RUN pip freeze > requirements.txt
 
+RUN pip install parameterized
+
+
 RUN pip install -r requirements.txt
 
 
